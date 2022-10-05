@@ -1,0 +1,5 @@
+mv= float(input("entrez la valeur de masse volumique :"))
+g= float(input("entrez la valeur de g :"))
+h= float(input("entrez la valeur de hquteur :"))
+P= mv*g*h
+print("la valeur de la pression est :", P )
