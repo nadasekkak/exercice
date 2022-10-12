@@ -1,0 +1,6 @@
+P=float(input("entrez la valeur de pression:"))
+T= 3.14
+R=float (input("entrez la valeur du rayon:"))
+S= R**2*T
+F=P*S*10**6
+print("la valeur de la force est :",F)
