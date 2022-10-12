@@ -1,0 +1,12 @@
+def fonction():
+    d=input("entrer la valeur de la densite: ")
+    V=input("ENTRER LA VALEUR DE LA VISCOSITE CINEMATIQUE EN STOCKES: ")
+    try:
+        d=float(d)
+        V=float(V)
+        u=V*0.0001*1000*d
+        print("la viscosite dynamique est :",u,"PI")
+    except:
+        print("la valeur de la viscosite ou de densite que vous avez donner n est pas correcte")
+        fonction()
+fonction()
